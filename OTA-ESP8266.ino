@@ -23,10 +23,6 @@
 #include <ESPAsyncWebServer.h>
 #include <AsyncElegantOTA.h>
 
-// Replace with your network credentials
-const char* ssid = "WIFI SSID";
-const char* password = "PASSWORD";
-
 bool ledState = 0;
 const int ledPin = 2;
 
