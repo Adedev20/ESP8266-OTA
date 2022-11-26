@@ -22,6 +22,7 @@
 #include <ESPAsyncTCP.h>
 #include <ESPAsyncWebServer.h>
 #include <AsyncElegantOTA.h>
+#include "credentials.h"
 
 bool ledState = 0;
 const int ledPin = 2;
